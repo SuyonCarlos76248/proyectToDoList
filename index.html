@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+       <h1 class="title"> To Do List. </h1>
+         
+        <div class = "inputBox">
+           <p class="label"> Ingresar tarea:</p>
+           <input class="input" type="text" id="txtTask">
+           
+           <input class="button" type="button" id="btnTask" value="Add Task" onclick="AddTask();">
+           <input class="button" type="button" disabled="true" id="btnDelete" value="Delete Task" onclick="DeleteTask();">
+        
+
+        </div>
+        <div class="tabla" >
+            <ol id="lstTask">
+
+            </ol>        
+        
+		</div>	
+       
+    </body>
+</html>

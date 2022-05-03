@@ -1,0 +1,52 @@
+body {
+  background-color:  #2962AF;
+  color: black;
+}
+ .title{
+     
+     
+    border-style: double;
+    text-align: center;
+    font-size: 2rem ;
+    margin-top: 5px;
+    height: 3rem;
+}
+.inputBox{
+     
+	border: green;
+    border-style: double;
+    height: 10rem;
+    margin: 3px;
+    padding: 10px;    
+}
+.label{
+    width: 10em;
+    height: 3rem;
+    margin: 1px;
+    font-size: 2rem ;   
+    border-style: double;
+
+}
+.input{
+    
+    min-width: 100%;
+    margin: 2px;
+    font-size: 20px ;
+    border: green; 
+    border-style: double;  
+}
+.button
+{
+    min-width: 45%;
+    height: 25%;
+    
+    border-style: double;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-right: 4%;
+    padding-bottom: 2%;
+}
+.tabla{
+     
+    border-style: double;    
+}
